@@ -1,0 +1,12 @@
+<Device Model="DIN-AP3">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="03" Name="Coffee Bar BOH Slot 04"/>
+      <Device Model="CLX-2DIM8" DeviceId="04" Name="Coffee Bar BOH Slot 03"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="05" Name="Coffee Bar BOH Slot 02"/>
+      <Device Model="CLX-2DIMFLV8,CLXI-2DIMFLV8" DeviceId="06" Name="Coffee Bar BOH Slot 01">
+         <Network Type="Cresnet"/>
+      </Device>
+      <Device Model="C2N-CBD-P" DeviceId="07"/>
+   </Network>
+   <Network Type="Ethernet" Id="02"/>
+</Device>

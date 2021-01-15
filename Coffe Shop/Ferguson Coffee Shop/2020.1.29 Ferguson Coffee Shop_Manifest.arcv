@@ -1,0 +1,42 @@
+[BEGIN]
+  ObjTp=FSgntr
+  Sgntr=ArchiveManifest
+  RelVrs=4.14.20
+  IsProgram=1
+  TopLevelProgram=2020.1.29 Ferguson Coffee Shop.smw
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=2020.1.29 Ferguson Coffee Shop.smw
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=2020.1.29 Ferguson Coffee Shop.sig
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=2020.1.29 Ferguson Coffee Shop.lpz
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=2020.1.29 Ferguson Coffee Shop.smft
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=2020.1.29 Ferguson Coffee Shop.lpz.hash
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Mothership Coffee Roasters.sgd_
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=fergusonMotel - analogPreset v1.00.ush
+  Scope=1
+[END]

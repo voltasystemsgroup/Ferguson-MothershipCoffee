@@ -1,0 +1,131 @@
+//Programmer: Code Distillers LLC
+#default_volatile
+#enable_stack_checking
+#enable_trace
+#output_shift 18
+#category "46" "Code Distillers" //Custom
+
+#define_constant cPre 8
+#define_constant cAnalog 32
+
+digital_input save[cPre], _skip_, recall[cPre], _skip_;
+analog_input analog_F[cAnalog];
+analog_output analog[cAnalog], _skip_, pre1[cAnalog], _skip_, pre2[cAnalog], _skip_, pre3[cAnalog], _skip_, pre4[cAnalog]
+, _skip_, pre5[cAnalog], _skip_, pre6[cAnalog], _skip_, pre7[cAnalog], _skip_, pre8[cAnalog];
+
+nonvolatile integer giPre[cPre][cAnalog];
+
+function parseVal (integer i)
+{
+    integer count;
+
+    switch(i)
+    {
+       case (1):
+       {
+           for (count = 1 to cAnalog)
+           {
+               pre1[count] = giPre[i][count];
+           }
+       }
+       case (2):
+       {
+           for (count = 1 to cAnalog)
+           {
+               pre2[count] = giPre[i][count];
+           }
+       }
+       case (3):
+       {
+           for (count = 1 to cAnalog)
+           {
+               pre3[count] = giPre[i][count];
+           }
+       }
+       case (4):
+       {
+           for (count = 1 to cAnalog)
+           {
+               pre4[count] = giPre[i][count];
+           }
+       }
+       case (5):
+       {
+           for (count = 1 to cAnalog)
+           {
+               pre5[count] = giPre[i][count];
+           }
+       }
+       case (6):
+       {
+           for (count = 1 to cAnalog)
+           {
+               pre6[count] = giPre[i][count];
+           }
+       }
+       case (7):
+       {
+           for (count = 1 to cAnalog)
+           {
+               pre7[count] = giPre[i][count];
+           }
+       }
+       case (8):
+       {
+           for (count = 1 to cAnalog)
+           {
+               pre8[count] = giPre[i][count];
+           }
+       }
+    }
+}
+
+function savePre (integer i)
+{
+    integer count;
+
+    for (count = 1 to cAnalog)
+    {
+        giPre[i][count] = analog_F[count];
+    }
+
+    parseVal(i);
+}
+
+function recallPre (integer i)
+{
+    integer count;
+
+    for (count = 1 to cAnalog)
+    {
+        analog[count] = giPre[i][count];
+    }
+}
+
+threadsafe push save
+{
+    integer i;
+    i = getLastModifiedArrayIndex();
+
+    savePre(i);
+}
+
+threadsafe push recall
+{
+    integer i;
+    i = getLastModifiedArrayIndex();
+
+    recallPre(i);
+}
+
+function main ()
+{
+    integer count;
+
+    waitForInitializationComplete ();
+
+    for (count = 1 to cPre)
+    {
+        parseVal(count);
+    }
+}

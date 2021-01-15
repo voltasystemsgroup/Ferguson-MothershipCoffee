@@ -1,0 +1,19 @@
+File Version	v3.03.00
+Modified Date	03/05/2020
+Modified Time	16:36:34
+
+LoadID	LoadName	RoomID	DIM_setting	Ramp_time	Upper_limit	Lower_limit	TotalWattage
+12	Main Lobby 1	1	True	500	100	1	50
+13	Seating Pendants	2	True	500	100	1	80
+15	Over Bar Pendants	-1	True	500	100	1	36
+16	Food Prep @ Bar	-1	True	500	100	1	50
+17	Art Accent Track Head	1	True	500	100	1	30
+18	Wall Accent Track	-1	True	500	100	1	126
+19	Halo Sconce	-1	True	500	100	1	50
+20	Back Light LED Tape	3	True	500	100	1	50
+21	North Bar LED Tape Light	3	True	500	100	1	50
+22	E Wall Shelve LED Tape	-1	True	500	100	1	50
+23	Under Counter Bar LED Tape 1	3	True	500	100	1	50
+24	Main Lobby 2	1	True	500	100	1	50
+25	Under Counter Bar @ Bar	3	True	500	100	1	50
+

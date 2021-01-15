@@ -1,0 +1,27 @@
+Crosspoint listing for C:\Program Files (x86)\Crestron\D3 Pro\Systems\Ferguson Coffee Shop 2019..10.23\Programs\Ferguson Coffee Shop 2019..10.23.SMW
+
+Note:  Crosspoint symbols with EquipID or ControlID set to 0d are not routeable.
+
+Equipment Crosspoint Routing.                                                                       EquipID
+===========================================================================================================
+S-69.2.1 in macro S-1.5.3.1 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\CL          0
+X-2DIMFLV8 v1.0.cmc)                                                                                
+S-69.3.1 in macro S-1.5.3.1 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\CL          0
+X-2DIMFLV8 v1.0.cmc)                                                                                
+S-69.4.1 in macro S-1.5.3.1 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\CL          0
+X-2DIMFLV8 v1.0.cmc)                                                                                
+S-69.5.1 in macro S-1.5.3.1 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\CL          0
+X-2DIMFLV8 v1.0.cmc)                                                                                
+S-69.6.1 in macro S-1.5.3.1 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\CL          0
+X-2DIMFLV8 v1.0.cmc)                                                                                
+S-69.7.1 in macro S-1.5.3.1 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\CL          0
+X-2DIMFLV8 v1.0.cmc)                                                                                
+S-69.8.1 in macro S-1.5.3.1 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\CL          0
+X-2DIMFLV8 v1.0.cmc)                                                                                
+S-69.9.1 in macro S-1.5.3.1 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\CL          0
+X-2DIMFLV8 v1.0.cmc)                                                                                
+
+Control Crosspoint Routing.                                                                         ControlID
+=============================================================================================================
+No symbols of this type found in the program
+
